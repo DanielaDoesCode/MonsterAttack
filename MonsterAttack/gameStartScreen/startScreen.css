@@ -1,0 +1,36 @@
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 35%;
+    margin: 10px;
+}
+
+#screen{
+    background: rgb(49,94,145);
+    background: radial-gradient(circle, rgba(49,94,145,1) 12%, rgba(57,45,119,1) 60%);
+    display: grid;
+    grid-template-rows: auto;
+    flex-direction: center;
+    position:absolute;
+    align-items: center;
+    justify-content:center;
+    border: 0;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding-block-start: 0px;
+    z-index: 99;
+}
+
+#touchToStart{
+    position: relative;
+    animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite;
+    color: white;
+    
+}
+
+@keyframes blinker {
+    60% {
+        opacity: 0.4;
+      }
+}

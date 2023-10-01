@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>Monster Attack</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="screen" onclick="desappear()">
+            <div id="clickHere">Start tapping!!</div>
+            <div id="hitbox" onclick="attack()"></div>
+            <div id="coins"> Coins: 0</div>
+            <div id="special"> Special </div>
+
+            <div id="hBar">
+                <div id="bar"></div>
+            </div>
+            <img id ="monster" class="monster" src="" alt="Monster">
+            <img id="character" src="" alt="Character">
+            <div id="sBar">
+                <div id="bar2"></div>
+            </div>
+
+            <button id="bToGacha" onclick="toGacha()">
+            <img id="gachaIcon" src="../sprites/vest.png">
+            </button>
+            <button id="bToUpgrade" onclick="toUpgrade()">
+            <img id="upgradeIcon" src="../sprites/up.png">
+            </button>
+            <div id="background"></div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

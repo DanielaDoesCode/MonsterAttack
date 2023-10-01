@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="upgrade.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="screen">
+            <button id="bMain" onclick="toMain()">
+            <img id="mainIcon" src="../sprites/left.png">
+            </button>
+            <div id="coins"></div>
+            <div id="upgradeAtk" onclick="upAtk()"></div>
+            <div id="upgradeSpecial" onclick="upSpecial()"></div>
+            <div id="upgradeLuck" onclick="upLuck()"></div>
+            <div id="help-button" onclick="help()">
+            <img id="questionMark" src="../sprites/questionMark4.png">
+            </div>
+            <div id="help-content"></div>
+        </div>
+    </body>
+    <script src="upgrade.js"></script>
+</html>

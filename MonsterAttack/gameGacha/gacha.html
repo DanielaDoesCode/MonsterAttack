@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>Monster Attack</title>
+        <link rel="stylesheet" href="gacha.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="screen">
+            <div id="coins">Coins: </div>
+            <button id="bMain" onclick="toMain()">
+            <img id="backIcon" src="../sprites/right.png">
+            </button>
+            <div id="arrowR" onclick="toRight()"> 
+            <img id="rightIcon" src ="../sprites/rightTransparent.png">
+            </div>
+            <img id="character" src="" alt="Character">
+            <div id="charName"></div>
+            <button id="select" onclick="select()"></button>
+            <div id="arrowL" onclick="toLeft()">
+            <img id="leftIcon" src ="../sprites/leftTransparent.png">
+            </div>
+        </div>
+    </body>
+    <script src="gacha.js"></script>
+</html>
